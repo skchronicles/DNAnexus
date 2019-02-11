@@ -62,7 +62,7 @@
     },
     {
       "id": "fastq_screen_p1",
-      "executable": "app-ccbr_fastqscreen_db1_array_v1/0.0.3",
+      "executable": "app-ccbr_fastqscreen_db1_array/0.0.3",
       "folder": "fqscreen1",
       "input": {
         "InFq": [
