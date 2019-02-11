@@ -3,7 +3,7 @@
   "title": "ccbr_fastqscreen_db1_array",
   "summary": "Runs fastq_screen on every fastq file after subseting it to 1mil reads against rRNA and Uni_vectors databases (db1)",
   "dxapi": "1.0.0",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "inputSpec": [
     {
       "name": "InFq",
