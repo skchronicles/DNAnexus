@@ -1,6 +1,6 @@
 {
-  "name": "ccbr_bam2rsemcounts",
-  "title": "ccbr_bam2rsemcounts",
+  "name": "ccbr_bam2rsem",
+  "title": "ccbr_bam2rsem",
   "summary": "Use RSEM to count genes and isoforms",
   "dxapi": "1.0.0",
   "version": "0.0.1",
