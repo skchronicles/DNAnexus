@@ -35,7 +35,7 @@
     },
     {
       "id": "trim_pe",
-      "executable": "app-ccbr_cutadapt_array/0.0.1",
+      "executable": "app-ccbr_cutadapt_array_pe/0.0.1",
       "folder": "trim",
       "input": {
         "InFq": {
