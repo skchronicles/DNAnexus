@@ -1,5 +1,5 @@
 <!-- dx-header -->
-# ccbr_cutadapt_array_pe (DNAnexus Platform App)
+# ccbr_cutadapt_array (DNAnexus Platform App)
 
 Run cutadapt on an array assuming it to be a PE array ...order of files should be Sample1_Read1 Sample1_Read2 Sample2_Read1 Sample2_Read2
 

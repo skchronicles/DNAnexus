@@ -1,4 +1,4 @@
-# ccbr_cutadapt_array_pe Developer Readme
+# ccbr_cutadapt_array Developer Readme
 
 <!--
 TODO: Please edit this Readme.developer.md file to include information

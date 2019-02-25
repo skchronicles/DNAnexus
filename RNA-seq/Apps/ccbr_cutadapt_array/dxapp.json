@@ -1,6 +1,6 @@
 {
-  "name": "ccbr_cutadapt_array_pe",
-  "title": "ccbr_cutadapt_array_pe",
+  "name": "ccbr_cutadapt_array",
+  "title": "ccbr_cutadapt_array",
   "summary": "Run cutadapt on an array assuming it to be a PE array ...order of files should be Sample1_Read1 Sample1_Read2 Sample2_Read1 Sample2_Read2",
   "dxapi": "1.0.0",
   "version": "0.0.1",
