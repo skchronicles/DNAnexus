@@ -1,4 +1,4 @@
-# ccbr_rnaseq_multiqc Developer Readme
+# ccbr_rnaseq_multiqc_report Developer Readme
 
 <!--
 TODO: Please edit this Readme.developer.md file to include information

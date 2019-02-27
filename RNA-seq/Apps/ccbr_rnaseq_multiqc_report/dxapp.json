@@ -1,6 +1,6 @@
 {
-  "name": "ccbr_rnaseq_multiqc",
-  "title": "ccbr_rnaseq_multiqc",
+  "name": "ccbr_rnaseq_multiqc_report",
+  "title": "ccbr_rnaseq_multiqc_report",
   "summary": "CCBR RNASeq Multiqc",
   "dxapi": "1.0.0",
   "version": "0.0.1",
@@ -32,30 +32,6 @@
     {
       "name": "FastqScreenDB2_files",
       "label": "FastqScreenDB2_files",
-      "help": "",
-      "class": "array:file",
-      "patterns": ["*"],
-      "optional": false
-    },
-    {
-      "name": "RSeQC_inner_distance_files",
-      "label": "RSeQC_inner_distance_files",
-      "help": "",
-      "class": "array:file",
-      "patterns": ["*"],
-      "optional": false
-    },
-    {
-      "name": "RSeQC_infer_experiment_files",
-      "label": "RSeQC_infer_experiment_files",
-      "help": "",
-      "class": "array:file",
-      "patterns": ["*"],
-      "optional": false
-    },
-    {
-      "name": "RSeQC_genebody_coverage_files",
-      "label": "RSeQC_genebody_coverage_files",
       "help": "",
       "class": "array:file",
       "patterns": ["*"],

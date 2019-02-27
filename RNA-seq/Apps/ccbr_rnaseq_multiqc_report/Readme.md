@@ -1,5 +1,5 @@
 <!-- dx-header -->
-# ccbr_rnaseq_multiqc (DNAnexus Platform App)
+# ccbr_rnaseq_multiqc_report (DNAnexus Platform App)
 
 CCBR RNASeq Multiqc
 

@@ -91,8 +91,8 @@
       }
     },
     {
-      "id": "star_p1",
-      "executable": "app-ccbr_star_p1/0.0.1",
+      "id": "star",
+      "executable": "app-ccbr_star/0.0.1",
       "folder": "star",
       "input": {
         "TrimmedFastqcTxt": [
@@ -119,53 +119,6 @@
             }
           }
         ],
-        "Genome": {
-          "$dnanexus_link": {
-            "workflowInputField": "RefGenome"
-          }
-        }
-      },
-      "systemRequirements": {
-        "*": {
-          "instanceType": "mem2_hdd2_x1"
-        }
-      }
-    },
-    {
-      "id": "star_p2",
-      "executable": "app-ccbr_star_p2/0.0.1",
-      "folder": "star",
-      "input": {
-        "TrimmedFastqcTxt": [
-          {
-            "$dnanexus_link": {
-              "outputField": "OutTxt",
-              "stage": "fastqc"
-            }
-          }
-        ],
-        "TrimmedFq": [
-          {
-            "$dnanexus_link": {
-              "outputField": "OutFq",
-              "stage": "trim_pe"
-            }
-          }
-        ],
-        "RawFq": [
-          {
-            "$dnanexus_link": {
-              "inputField": "InFq",
-              "stage": "rawfastqc"
-            }
-          }
-        ],
-        "UniqSJOutTab": {
-          "$dnanexus_link": {
-            "outputField": "UniqSJOutTab",
-            "stage": "star_p1"
-          }
-        },
         "Genome": {
           "$dnanexus_link": {
             "workflowInputField": "RefGenome"
@@ -187,7 +140,7 @@
           {
             "$dnanexus_link": {
               "outputField": "OutTranscriptomeBam",
-              "stage": "star_p2"
+              "stage": "star"
             }
           }
         ]
@@ -222,43 +175,15 @@
       }
     },
     {
-      "id": "rseqc",
-      "executable": "app-ccbr_rseqc_array/0.0.2",
-      "folder": "rseqc",
-      "input": {
-        "InBam": [
-          {
-            "$dnanexus_link": {
-              "outputField": "OutStarDmarkBam",
-              "stage": "star_p2"
-            }
-          }
-        ],
-        "RefGenome": {
-          "$dnanexus_link": {
-            "workflowInputField": "RefGenome"
-          }
-        },
-        "InBai": [
-          {
-            "$dnanexus_link": {
-              "outputField": "OutStarDmarkBai",
-              "stage": "star_p2"
-            }
-          }
-        ]
-      }
-    },
-    {
       "id": "multiqc",
-      "executable": "app-ccbr_rnaseq_multiqc/0.0.1",
+      "executable": "app-ccbr_rnaseq_multiqc_report/0.0.1",
       "folder": "report",
       "input": {
         "STAR_final_out_files": [
           {
             "$dnanexus_link": {
               "outputField": "OutLog",
-              "stage": "star_p2"
+              "stage": "star"
             }
           }
         ],
@@ -278,19 +203,11 @@
             }
           }
         ],
-        "RSeQC_genebody_coverage_files": [
-          {
-            "$dnanexus_link": {
-              "outputField": "hkGene_TXT",
-              "stage": "rseqc"
-            }
-          }
-        ],
         "Picard_duplic_files": [
           {
             "$dnanexus_link": {
               "outputField": "OutStarDuplic",
-              "stage": "star_p2"
+              "stage": "star"
             }
           }
         ],
@@ -302,14 +219,6 @@
             }
           }
         ],
-        "RSeQC_inner_distance_files": [
-          {
-            "$dnanexus_link": {
-              "outputField": "innerDistFreq_TXT",
-              "stage": "rseqc"
-            }
-          }
-        ],
         "FastQC_files": [
           {
             "$dnanexus_link": {
@@ -318,19 +227,11 @@
             }
           }
         ],
-        "RSeQC_infer_experiment_files": [
-          {
-            "$dnanexus_link": {
-              "outputField": "inferExp",
-              "stage": "rseqc"
-            }
-          }
-        ],
         "Picard_RNASeqMetrics_files": [
           {
             "$dnanexus_link": {
               "outputField": "OutRnaSeqMetricsTxt",
-              "stage": "star_p2"
+              "stage": "star"
             }
           }
         ]
