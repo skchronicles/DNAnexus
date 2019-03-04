@@ -29,7 +29,7 @@ main() {
     cd /data
 
     dx-download-all-inputs --parallel
-    dx-docker run -v "$HOME/in":"$HOME/in" -v "/data":"/data" -w "/data" ewels/multiqc multiqc -d -dd 1 $HOME/in
+    dx-docker run -v "$HOME/in":"$HOME/in" -v "/data":"/data" -w "/data" ewels/multiqc:v1.7 multiqc -d -dd 1 $HOME/in
 
     OutHtml=$(dx upload /data/multiqc_report.html --brief)
 

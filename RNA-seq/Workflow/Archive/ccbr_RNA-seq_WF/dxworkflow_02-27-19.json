@@ -176,7 +176,7 @@
     },
     {
       "id": "multiqc",
-      "executable": "app-ccbr_rnaseq_multiqc_report/0.0.2",
+      "executable": "app-ccbr_rnaseq_multiqc_report/0.0.1",
       "folder": "report",
       "input": {
         "STAR_final_out_files": [
