@@ -14,7 +14,7 @@
     {
       "help": "Needed for dynamically resolving the correct reference files. Please choose from one of the following: [mm9, mm10, hg38, hg19, hs38d1, hs37d5]",
       "label": "Reference Genome",
-      "patterns": ["hg19", "hg19_KSHV", "hg38", "mm9", "mm10", "Mmul_8.0.1"],
+      "patterns": ["hg19", "hg38", "mm9", "mm10", "hs38d1", "hs37d5"],
       "optional": false,
       "class": "string",
       "name": "RefGenome"
@@ -92,7 +92,7 @@
     },
     {
       "id": "star",
-      "executable": "app-ccbr_star/0.0.2",
+      "executable": "app-ccbr_star/0.0.1",
       "folder": "star",
       "input": {
         "TrimmedFastqcTxt": [
@@ -128,7 +128,7 @@
     },
     {
       "id": "rsem",
-      "executable": "app-ccbr_bam2rsem/0.0.2",
+      "executable": "app-ccbr_bam2rsem/0.0.1",
       "folder": "rsem",
       "input": {
         "Genome": {
@@ -148,7 +148,7 @@
     },
     {
       "id": "merge_rsem",
-      "executable": "app-ccbr_rsem_merge/0.0.1",
+      "executable": "app-ccbr_rsem_results_merge/0.0.2",
       "folder": "rsem",
       "input": {
         "IsoformResults": [

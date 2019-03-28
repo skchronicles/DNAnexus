@@ -1,5 +1,5 @@
 <!-- dx-header -->
-# ccbr_rsem_results_merge (DNAnexus Platform App)
+# ccbr_rsem_merge (DNAnexus Platform App)
 
 Merge results from different samples and create merged files for expected counts, FPKM and TPM values
 

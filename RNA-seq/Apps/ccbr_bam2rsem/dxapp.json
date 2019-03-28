@@ -3,7 +3,7 @@
   "title": "ccbr_bam2rsem",
   "summary": "Use RSEM to count genes and isoforms",
   "dxapi": "1.0.0",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "inputSpec": [
     {
       "name": "TranscriptomeBam",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Genome",
-      "label": "Genome eg. mm9 or hg19",
+      "label": "Genome: mm9 or mm10 or hg19 or hg19_KSHV or Mmul_8.0.1",
       "help": "",
       "class": "string",
       "optional": false
@@ -51,7 +51,7 @@
     "interpreter": "bash",
     "timeoutPolicy": {
       "*": {
-        "hours": 48
+        "hours": 10
       }
     },
     "distribution": "Ubuntu"

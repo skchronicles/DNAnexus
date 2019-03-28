@@ -1,4 +1,4 @@
-# ccbr_rsem_results_merge Developer Readme
+# ccbr_rsem_merge Developer Readme
 
 <!--
 TODO: Please edit this Readme.developer.md file to include information

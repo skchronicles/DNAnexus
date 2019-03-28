@@ -1,9 +1,9 @@
 {
-  "name": "ccbr_rsem_results_merge",
-  "title": "ccbr_rsem_results_merge",
+  "name": "ccbr_rsem_merge",
+  "title": "ccbr_rsem_merge",
   "summary": "Merge results from different samples and create merged files for expected counts, FPKM and TPM values",
   "dxapi": "1.0.0",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "inputSpec": [
     {
       "name": "GeneResults",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Genome",
-      "label": "hg19 or hg38 or mm9 or mm10",
+      "label": "hg19 or hg19_KSHV or hg38 or mm9 or mm10 or Mmul_8.0.1",
       "help": "",
       "class": "string",
       "optional": false
@@ -71,7 +71,7 @@
     "interpreter": "bash",
     "timeoutPolicy": {
       "*": {
-        "hours": 48
+        "hours": 10
       }
     },
     "distribution": "Ubuntu"
