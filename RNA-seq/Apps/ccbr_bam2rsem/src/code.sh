@@ -1,5 +1,5 @@
 #!/bin/bash
-# ccbr_bam2rsemcounts 0.0.2
+# ccbr_bam2rsemcounts 0.0.3
 # See https://wiki.dnanexus.com/Developer-Portal for tutorials on how
 # to modify this file.
 
