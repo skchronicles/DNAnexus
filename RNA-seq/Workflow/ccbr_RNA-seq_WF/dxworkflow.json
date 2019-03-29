@@ -92,7 +92,7 @@
     },
     {
       "id": "star",
-      "executable": "app-ccbr_star/0.0.3",
+      "executable": "app-ccbr_star/0.0.5",
       "folder": "star",
       "input": {
         "TrimmedFastqcTxt": [
@@ -128,7 +128,7 @@
     },
     {
       "id": "rsem",
-      "executable": "app-ccbr_bam2rsem/0.0.3",
+      "executable": "app-ccbr_bam2rsem/0.0.4",
       "folder": "rsem",
       "input": {
         "Genome": {

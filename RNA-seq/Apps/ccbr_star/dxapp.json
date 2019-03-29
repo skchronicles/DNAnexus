@@ -3,7 +3,7 @@
   "title": "ccbr_star",
   "summary": "STAR Alignmnet: One-pass mode",
   "dxapi": "1.0.0",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "inputSpec": [
     {
       "name": "RawFq",
@@ -31,7 +31,7 @@
     },
     {
       "name": "Genome",
-      "label": "hg19 or hg38 or mm9 or mm10 or hg19_KSHV or Mmul_8.0.1",
+      "label": "hg19 or hg38 or hg38_HPV16 or mm9 or mm10 or hg19_KSHV or Mmul_8.0.1",
       "help": "",
       "class": "string",
       "optional": false

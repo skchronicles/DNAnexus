@@ -2,7 +2,7 @@
 
 set -e -x -o pipefail
 
-# ccbr_star_p1 0.0.3
+# ccbr_star_p1 0.0.5
 # See https://wiki.dnanexus.com/Developer-Portal for tutorials on how
 # to modify this file.
 
