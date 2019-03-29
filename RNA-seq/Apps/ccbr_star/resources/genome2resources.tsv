@@ -25,6 +25,15 @@ hg38	75	file-FQ5FX0Q0xx3ZPBfvGxkGb9qY
 hg38	100	file-FQ5F38Q0xx3zPGBG303jVQv4
 hg38	125	file-FQ5F6yQ0xx3k0z308j5Yz1gZ
 hg38	150	file-FQ5FBb80xx3y75q07f64G2Z8
+hg38_HPV16	gtffile	file-FXKZJJ80xx3Yv6JQF36QZx7F
+hg38_HPV16	refflat	file-FXKkf9j0xx3fFXK09b8VYKzZ
+hg38_HPV16	rrnalist	file-FXKYzx80xx3gqf6PJXx6XzgJ
+hg38_HPV16	rsemindex	file-FXKZk7Q0ZjYZ47P7FGVqqzG9
+hg38_HPV16	50	file-FXP1FjQ0xx3XPqBK4kQZfKq1
+hg38_HPV16	75	file-FXP1K880xx3yz8pK9Zx9kB6v
+hg38_HPV16	100	file-FXP14Y80xx3bV3V3KqfVv3pG
+hg38_HPV16	125	file-FXP16qQ0xx3qp6xQKpzKJ4gv
+hg38_HPV16	150	file-FXP19800xx3j6ygX4G7k4Z6G
 mm10	gtffile	file-FPpjJJj0xx3pjXPvGzvq2zzj
 mm10	refflat	file-FQ845q00xx3bkjkV594fkxk8
 mm10	rrnalist	file-FQ845vj0xx3xZ9f34gQ2PF1y

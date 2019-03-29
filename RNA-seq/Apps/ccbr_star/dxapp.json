@@ -3,7 +3,7 @@
   "title": "ccbr_star",
   "summary": "STAR Alignmnet: One-pass mode",
   "dxapi": "1.0.0",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "inputSpec": [
     {
       "name": "RawFq",
