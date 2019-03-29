@@ -1,5 +1,5 @@
 #!/bin/bash
-# ccbr_rsem_merge 0.0.1
+# ccbr_rsem_merge 0.0.2
 
 # See https://wiki.dnanexus.com/Developer-Portal for tutorials on how
 # to modify this file.
