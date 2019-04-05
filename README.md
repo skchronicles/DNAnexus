@@ -16,9 +16,9 @@ Overview of the RNA-seq pipeline:
 4. [`STAR`](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/): an ultrafast universal RNA-seq aligner.
 5. [`RSEM`](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-323): quantifies gene and isoform expression levels from RNA-Seq data.
 6. [`MultiQC`](https://multiqc.info/): aggregate results from bioinformatics analyses across many samples into a single report
-  
+ 
 
-![this](docs/DNAnexus_RNA-Seq_workflow.png)
+![this](assets/DNAnexus_RNA-Seq_workflow.png)
 
 ##### Running the RNA-seq Workflow 
 
@@ -42,8 +42,11 @@ Under Constuction: *Coming Soon!*
 ##### Description:
 Under Constuction: *Coming Soon!* 
 
+![this](assets/exome_workflow.png)
+
 <hr>
 
 <p align="center">
 	<a href="#ccbr-dnanexus-workflows">Back to Top</a>
 </p>
+
