@@ -1,5 +1,5 @@
 <!-- dx-header -->
-# ccbr_fastqscreen_db2_array (DNAnexus Platform App)
+# ccbr_fastqscreen_p2_array (DNAnexus Platform App)
 
 Runs fastq_screen on every fastq file after subseting it to 1mil reads against rRNA and Uni_vectors databases (db2)
 

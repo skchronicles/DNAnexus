@@ -1,4 +1,4 @@
-# ccbr_fastqscreen_db2_array Developer Readme
+# ccbr_fastqscreen_p2_array Developer Readme
 
 <!--
 TODO: Please edit this Readme.developer.md file to include information
