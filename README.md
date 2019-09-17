@@ -1,6 +1,6 @@
 # CCBR DNAnexus Workflows
 
-![this](assets/CCBR_LOGO.png)
+<img src="assets/CCBR_LOGO.png" width="415" height="110">
 
 ## Table of Contents
 > 1. **[RNA-seq](#1-RNA-seq)**
