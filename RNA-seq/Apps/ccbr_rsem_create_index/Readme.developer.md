@@ -1,4 +1,4 @@
-# ccbr_fastqc_array Developer Readme
+# ccbr_rsem_create_index Developer Readme
 
 <!--
 TODO: Please edit this Readme.developer.md file to include information
