@@ -90,8 +90,8 @@ Genes with low counts across all samples more likely represent noise, and it is 
 CPM stands for counts per million. CPM normalization addresses the problem that sequencing depths differ across samples. CPM normalized counts have been scaled by the number of fragments sequenced multiplied by one million. CPM normalization allows comparison of expression for a given gene across samples. 
 #### What is group-based CPM filtering?
 CPM normalization accounts for differences in sequencing depths across samples. It is better to filter based on CPM, as apposed to filtering based on the raw counts, because it takes into consideration differences in library sizes. Also, since differential expression analysis tools like limma, DESeq2, and edgeR compare counts between groups for a given gene, gene-length does not need to be taken in account.  As so, CPM can be used to filter low count genes. 
-That being said, it is recommended to filter out any genes that have a `CPM < 0.5 at least two samples` (assuming you have three replicates). 
-If you have two replicates per group, you can decrease the minimum sample threshold to 1: `CPM < 0.5 at least one samples`.  
+That being said, it is recommended to only consider genes with a `CPM > 0.5 in at least two samples` (assuming you have three replicates). 
+If you have two replicates per group, you can decrease the minimum sample threshold to 1: `CPM > 0.5 in at least one samples`.  
 
 Here is a basic formula to determine the minimum number of samples for CPM filtering:
 
